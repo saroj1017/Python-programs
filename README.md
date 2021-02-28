@@ -1,1 +1,1 @@
-# treasure-marker
+# treasure-finder
