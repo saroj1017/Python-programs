@@ -1,1 +1,1 @@
-# treasure-finder
+# Python mini projects
