@@ -25,11 +25,23 @@ Example Output
 171
 '''
 
+class My_Ambiguity_Error(Exception):
+    pass
 
-student_heights = input("Input a list of student heights ").split()
-for n in range(0, len(student_heights)):
-  student_heights[n] = int(student_heights[n])
-# print(student_heights)
+student_heights = input("Input a list of student heights: ").split()
+
+try:
+    for n in range(0, len(student_heights)):
+        student_heights[n] = int(student_heights[n])
+        if(student_heights[n]<=0):
+            raise My_Ambiguity_Error
+except ValueError:
+    print("INVALID TYPE.PLEASE CHECK AND TRY AGAIN.\n   One or more of the input heights is of invalid type.\n   Expected type: <class 'int'>")
+    exit()
+
+except My_Ambiguity_Error:
+    print("INVALID INTEGER VALUE FOR HEIGHT.CHECK AND TRY AGAIN.\n  One or more of the input heights is invalid value. (Zero or Less)")
+    exit()
 
 
 total_height = 0
@@ -42,5 +54,7 @@ for student in student_heights:
   number_of_students += 1
 print(f"number of students = {number_of_students}")
   
-average_height = round(total_height / number_of_students)
-print(average_height)
+average_height = total_height / number_of_students
+average_height = round( average_height )
+print(f"Average height is = {average_height} ")
+
