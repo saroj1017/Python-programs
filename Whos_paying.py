@@ -21,7 +21,6 @@ import random
 names_string = input("Give me everybody's names, seperated by a comma. ")
 names = names_string.split(", ")
 
-#Write your code below this line 👇
 
 #Get the total number of items in list.
 num_items = len(names)
