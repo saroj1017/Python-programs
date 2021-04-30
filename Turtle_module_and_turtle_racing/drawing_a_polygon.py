@@ -3,7 +3,7 @@ import random
 
 tim = t.Turtle()
 
-########### Challenge 3 - Draw Shapes ########
+########### Draw Shapes ########
 
 colours = ["CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "wheat", "SlateGray", "SeaGreen"]
 
