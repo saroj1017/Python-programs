@@ -1,4 +1,4 @@
-######## Challenge 1 - Draw a Square ############
+######## Draw a Square ############
 import turtle as t
 
 timmy_the_turtle = t.Turtle()
