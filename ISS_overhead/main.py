@@ -13,8 +13,8 @@ import time
 # MY_LONG = 83.248488  # Your longitude
 
 
-MY_EMAIL = "saroj.pradhan1017@gmail.com"
-PASSWORD = "Dressboy@10"
+MY_EMAIL = your_email
+PASSWORD = your_password
 response = requests.get(url="http://api.open-notify.org/iss-now.json")
 response.raise_for_status()
 data = response.json()
