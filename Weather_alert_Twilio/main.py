@@ -6,7 +6,7 @@ OWN_Endpoint  = "http://api.openweathermap.org/data/2.5/onecall"
 api_key = "dc7181e72ff0ed23810e1c3a650acfaf"
 
 account_sid = "ACf1aea8af91ad1760cf4b303f18324862"
-auth_token = "a1b09a95390b317165e018084a2d90a6"
+auth_token = "a1b09a95390b317165e018084a2d90a6"  # NEW AUTH TOKEN AVAILABLE IN THE TWILIO PAGE
 
 weather_params = {
     "lat": 17.686815,
