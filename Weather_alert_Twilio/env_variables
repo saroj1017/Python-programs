@@ -1,0 +1,12 @@
+export OWN_API_KEY=dc7181e72ff0ed23810e1c3a650acfaf;export AUTH_TOKEN=asdsdsd; python3 main.py
+
+type in the bash console 
+
+export OWN_API_KEY=dc7181e72ff0ed23810e1c3a650acfaf
+
+THEN in place of the api key write os.environ.get("OWN_API_KEY")
+
+DO THIS FOR ALL THE KEYS THAT YOU WANT TO KEEPP SECURE 
+
+also in some case we can keep all the keys by creating a new .env file
+
